@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import "heder";
+@import "fhq";
+@import "time";
+@import "index";
+@import "footer";
+@import "about";
+@import "form";
+@import "quiz";
+$fontHenny : 'Henny Penny',
+cursive;
+$fontPattaya:'Pattaya',
+sans-serif;
+$fontRoboto:'Roboto',
+sans-serif;
+$colorYel:#f2cc0f;
+$colorgreen:#8cbf3f;
+$colorWith:#f2f2f2;
+$colorBlack:#0d0d0d;
+$colorPerpel:#9453a6;
+
+.fh {
+    font-family: $fontHenny;
+}
+
+.fp {
+    font-family: $fontPattaya;
+}
+
+.fr {
+    font-family: $fontRoboto;
+}
+
+.coly {
+    color: $colorYel;
+}
+
+.bgcoly {
+    background-color: $colorYel;
+}
+
+.colp {
+    color: $colorPerpel;
+}
+
+.bgcolp {
+    background-color: $colorPerpel;
+}
+
+.colg {
+    color: $colorgreen;
+}
+
+.bgcolg {
+    background-color: $colorgreen;
+}
+
+.colb {
+    color: $colorBlack;
+}
+
+.bgcolb {
+    background-color: $colorBlack;
+}
+
+.colw {
+    color: $colorWith;
+}
+
+.bgcolw {
+    background-color: $colorWith;
+}
+
+.bgcolypg {
+    background: rgb(242, 204, 15);
+    background: linear-gradient(90deg, rgba(242, 204, 15, 1) 0%, rgba(148, 83, 166, 1) 50%, rgba(140, 191, 63, 0.919502835313813) 100%);
+}
+
+.bgcolgpy {
+    background: rgb(140, 191, 63);
+    background: linear-gradient(90deg, rgba(140, 191, 63, 1) 0%, rgba(148, 83, 166, 1) 50%, rgba(242, 204, 15, 0.919502835313813) 100%);
+}

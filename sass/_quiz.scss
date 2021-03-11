@@ -1,0 +1,9 @@
+input[type="radio"]{
+    cursor: pointer;
+
+}
+.q:hover{
+   background: rgb(242, 204, 15);
+   background: linear-gradient(90deg, rgba(242, 204, 15, 1) 0%, rgba(148, 83, 166, 1) 50%, rgba(140, 191, 63, 0.919502835313813) 100%);
+   color: #fff;
+}

@@ -1,0 +1,47 @@
+.doner-logo {
+    height: 100px;
+    text-align: left;
+
+}
+
+.card-header a {
+    text-decoration: none;
+    font-size: 2em;
+    color: #000;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .doner-logo {
+        height: 45px;
+        text-align: left;
+
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .doner-logo {
+        height: 60px;
+        text-align: left;
+
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .doner-logo {
+        height: 60px;
+        text-align: left;
+
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .doner-logo {
+        height: 100px;
+        text-align: left;
+
+    }
+}

@@ -1,0 +1,30 @@
+#navbarNav .h2 .nav-item .nav-link {
+    color: #f2cc0f;
+    transition: .3s ease-in-out;
+
+    &:hover {
+        color: #8cbf3f;
+        font-size: 3rem;
+
+    }
+
+}
+
+#navbarNav .h2 .active .nav-link {
+    color: #8cbf3f;
+    transition: .3s ease-in-out;
+
+    &:hover {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 991px) {
+    #navbarNav .h2 .nav-item .nav-link {
+        color: #9453a6;
+    }
+
+    #navbarNav .h2 .active .nav-link {
+        color: #8cbf3f;
+    }
+}

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+:root {
+    --success-color: teal;
+    --error-color: crimson;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.formy {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.formin {
+    width: 500px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.363);
+    box-shadow: 5px 5px 5px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-yosef {
+    display: block;
+
+}
+
+label {
+    width: 100%;
+    font-size: 1.6em;
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+
+input {
+    width: 100%;
+    font-size: 1.6em;
+    border: 2px solid rgba(100, 100, 100, 0.623);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.527);
+
+
+}
+
+small {
+    font-size: 1.4em;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgba(100, 100, 100, 0.623);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.527);
+    font-size: 16px;
+    resize: none;
+}
+
+input[type="submit"] {
+    background-color: #3498bd;
+    border: 2px solid #3498bd;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    font-size: 1.2em;
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(255, 255, 255, 0.527);
+    color: #3498bd;
+    cursor: pointer;
+}
+
+.form-yosef.success input {
+    border-color: var(--success-color);
+}
+
+.form-yosef.error input {
+    border-color: var(--error-color)
+}
+
+.form-yosef small {
+    color: var(--error-color);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form-yosef.error small {
+    visibility: visible
+}

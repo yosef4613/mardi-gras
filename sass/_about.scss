@@ -1,0 +1,42 @@
+#mayor img {
+  width: 250px;
+  display: block;
+  float: right;
+  margin: 10px;
+  padding: 10px;
+}
+.article {
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px;
+}
+.quiz {
+  position:static;
+  font-size: 1.2em;
+  width: 150px;
+ 
+  padding: 10px;
+
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.534);
+
+  a {
+    text-decoration: none;
+    color: darkorchid;
+
+    :hover {
+      color: darken($color: darkorchid, $amount: 30)
+    }
+  }
+
+}
+
+@media (max-width: 767px) {
+  #mayor img {
+      width: 200px;
+  }
+  .quiz{
+    position:static;
+    width: 100px;
+    padding-bottom:  10px;
+  }
+}
